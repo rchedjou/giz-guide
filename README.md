@@ -1,9 +1,9 @@
 # LE PROJET GIZ-GUIDE : DE LA JOURNE GERMANO-CAMEROUNAISE
 
 Le projet Giz-guide est une plate-forme de présentation intéractive des activités autour de la journée germano-camerounaise. Il a pour objectif de présenter une interface interactive et fonctionnelle adaptée aux écrans de téléphone mobile(responsive) permettant de présenter :
-    - l'agenda de la journée
-    - Les points d'intérêt sur le site (Musée national du Cameroun), les pôles prioritaires de la coopération et autres informations pratiques pour les participants  Contacts, dossiers de presse, Photos avec légende de projet par pôle prioritaire,...
-    - Le contenu (texte, image, chronograme de la journée, infos médias)
+- l'agenda de la journée
+- Les points d'intérêt sur le site (Musée national du Cameroun), les pôles prioritaires de la coopération et autres informations pratiques pour les participants  Contacts, dossiers de presse, Photos avec légende de projet par pôle prioritaire,...
+- Le contenu (texte, image, chronograme de la journée, infos médias)
 
 ## Pour Commencer
 
@@ -13,21 +13,21 @@ Les développeurs qui utilisent ce projet doivent déjà avoir React, et node in
 ### Configuration du backend(server-giz-guide)
 
 Depuis le dossier server-giz-guide, exécutez `npm install `. Toutes les dépendences requises inclus dans le fichier package.json seront installées. il s'agir principacelement : 
-    - `express` : pour créer notre serveur web
-    - `nodemon` : pour relancer automatique notre app après une miseà jour en mode développement
-    - `sequelize` et `sequelize-cli` qui est un ORM mysql facilitant les requêtes et les migrations
-    - `mysql2` : pour pemettre l'interaction entre mysql et Node.js
-    - `cors`: pour autoriser l'échange des données entres deux entités (backend et frontend)
+- `express` : pour créer notre serveur web
+- `nodemon` : pour relancer automatique notre app après une miseà jour en mode développement
+- `sequelize` et `sequelize-cli` qui est un ORM mysql facilitant les requêtes et les migrations
+- `mysql2` : pour pemettre l'interaction entre mysql et Node.js
+- `cors`: pour autoriser l'échange des données entres deux entités (backend et frontend)
 
 Avant de lancer l'application backend, assurrez-vous d'avoir :
-    1. Un utlisateur mysql avec les droits de création d'une base de données
-    2. Creer une base de donnée mysql nommée : `giz_guide`
-    3. Allez dans le dossier `config` et ouvrez le fichier `config.json`, puis remplacer les paramètres de connexion à mysql par ceux créer plus haut.
+1. Un utlisateur mysql avec les droits de création d'une base de données
+2. Creer une base de donnée mysql nommée : `giz_guide`
+3. Allez dans le dossier `config` et ouvrez le fichier `config.json`, puis remplacer les paramètres de connexion à mysql par ceux créer plus haut.
 
 Pour lancer l'application, exécutez la commande : 
-    ```
-        npm start
-    ```
+```
+npm start
+```
 
 Ces commandes demarre notre server tout en créant les models définis dans notre dossier `models`.
 
