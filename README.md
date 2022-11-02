@@ -1,4 +1,4 @@
-# LE PROJET TRIVIA-API
+# LE PROJET GIZ-GUIDE : DE LA JOURNE GERMANO-CAMEROUNAISE
 
 Le projet Giz-guide est une plate-forme de présentation intéractive des activités autour de la journée germano-camerounaise. Il a pour objectif de présenter une interface interactive et fonctionnelle adaptée aux écrans de téléphone mobile(responsive) permettant de présenter :
     - l'agenda de la journée
