@@ -3,5 +3,5 @@ __pycache__
 ._*
 .Trashes
 env/
-client-giz-guide/node_modules/
+client-giz-guides/node_modules/
 server-giz-guide/node_modules/
